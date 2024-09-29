@@ -23,14 +23,14 @@ to = -4510674591              # required
 replace = { "🐋   📣Some codes may be incorrect❗️" = "Change hoiche" } # optional
 
 [[chats]]
-from = [123456789, -100123456789]               # required
-to = 123456789                                  # required
+from = [-1001610472708]               # required
+to = -4510674591                                  # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
 
 [[chats]]
-from = -100123456789            # required
-to = [123456789, -100123456789] # required
+from = -1001610472708            # required
+to = [-4510674591] # required
 
 [[chats]]
-from = [123456789, -100123456789] # required
-to = [123456789, -100123456789]   # required
+from = [-1001610472708] # required
+to = [-4510674591]   # required
