@@ -4,11 +4,11 @@
 # sudo_users can be obtained from https://t.me/userinfobot
 
 [pyrogram]
-api_id = 28607871                                                      # required
-api_hash = "183721dca18fce6ed2877fdcd1066a3a"                       # required
-bot_token = "7751073434:AAEdzrZi-e3MNsdVNi5TES0t7ioDzb_Ty7k"                  # either bot_token or session_string is required
-session_string = "1BVn1-ABCD1234efgh5678IJKLmnoPQRsTUVwxyZxxxxxxxx" # either bot_token or session_string is required
-sudo_users = [6305268551]                                 # optional
+api_id =                                                       # required
+api_hash = ""                       # required
+bot_token = ""                  # either bot_token or session_string is required
+session_string = "" # either bot_token or session_string is required
+sudo_users = []                                 # optional
 
 
 # chat ids can be obtained from https://t.me/getidsbot
@@ -18,8 +18,8 @@ sudo_users = [6305268551]                                 # optional
 # Atleast one chat must be added
 
 [[chats]]
-from = -1001610472708        # required
-to = -4510674591              # required
+from =         # required
+to =               # required
 replace = { "🐋   📣Some codes may be incorrect❗️" = "Change hoiche" } # optional
 
 [[chats]]
